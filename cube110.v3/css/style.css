@@ -1,0 +1,29 @@
+
+Display {
+    background-color: lightgrey;
+    }
+
+LeftDisplay {
+    border-right: 1px solid #b6b6b6;
+    border-left: 1px solid #b6b6b6;
+    border-top: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
+
+}
+
+RightDisplay {
+    border-right: 1px solid #b6b6b6;
+    border-left: none;
+    border-top: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+InfoDisplay {
+    background-color: #f4debf;
+    border-right: 1px solid #b6b6b6;
+    border-left: 1px solid #b6b6b6;
+    border-top: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
+
+}
+

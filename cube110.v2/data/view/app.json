@@ -1,0 +1,14 @@
+{
+  "geometry_data_dir": "data/models/json",
+  "left_data_geometry_name": "user_geometry.json",
+  "right_data_geometry_name": "user_geometry_right.json",
+  "image_dir": "resources/image",
+  "image_select": "resources/image_select",
+  "ext": ".png",
+  "image_view_size": [604, 604],
+  "image_scene_geometry": [0, 0, 600, 600]
+
+
+
+
+}

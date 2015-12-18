@@ -1,0 +1,11 @@
+{
+    "ext_images": "png",
+    "left_geometry_json": "games/seq_game_pkg/json/user_geometry.json",
+    "right_geometry_json": "games/seq_game_pkg/json/user_geometry_right.json",
+    "image_dir": "resources/image",
+    "json_view_path": "games/seq_game_pkg/json/view.json",
+    "size_view": [604, 604],
+    "scene_geometry": [0, 0, 600, 600],
+    "spacing": 0,
+    "margin": 0
+}

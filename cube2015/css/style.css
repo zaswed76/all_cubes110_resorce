@@ -1,0 +1,27 @@
+
+
+Button {
+    border-right: 1px solid #BDBDBD;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+
+
+   }
+
+BaseWindow {
+    background-color: #F2F2F2;
+    }
+
+QGraphicsView {
+    border-right: 1px solid #D8D8D8;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid lightslategray;
+    background-color: #E6E6E6;
+
+}
+
+StepHelp {
+    background-color: lightgray;
+}

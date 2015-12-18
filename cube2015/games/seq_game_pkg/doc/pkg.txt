@@ -1,0 +1,44 @@
+logic
+    images_data:
+        fun: save_geometry
+        fun: get_json_object
+        fun: get_path
+        --------------------------------------------------------------
+        ImageModel
+            meth: x
+            meth: y
+            meth: scale
+            meth: rotate
+            meth: name
+            meth: path
+        --------------------------------------------------------------
+        ImagesObj
+            meth: init
+
+        --------------------------------------------------------------
+
+          объект класс images.ImagesObj возвращает словарь объектов геометрии,
+          где ключ - (str) имя изображения (сооветствует имени изображения),
+          а значение - объект класса images.ImageModel.
+          значения записаны в json файле
+
+          json файл имее такую структуру:
+              geometry.json содережит словарь где ключи str, а значения list
+              value[0] [x, y] - положение
+              value[1] scale - коэффициент размера
+              value[2] rotate - коэффициент поворота
+
+    press_processor
+        PressLogic:
+            +set_current_step - устанавливает свойства
+            self._left_current_images
+            self._right_current_images
+            self._current_method
+
+            +set_condition_step - меняет свойства согласно контексту
+
+            +left_press > return :str возвр. имя метода (что делать)
+            name имя объекта изображения
+
+            +right_press > return :str возвр. имя метода (что делать)
+            name имя объекта изображения
